@@ -1,0 +1,55 @@
+header{
+padding-top: 100px;
+text-align: center;
+color: #A04000;
+font-size: 22px;
+font-family:  "Times new Roman",Times,serif;
+font-style: oblique;
+}
+
+#Accueil {
+padding-bottom: 10px;
+position: fixed;
+left: 60px;
+color: white;
+font-size: 25px;
+}
+
+.top{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+}
+
+.top-img{
+  background-image: url("../../Img/topbackground.jpg");
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  filter: blur(8px);
+  height: 500px;
+  background-size: cover;
+  transform: scale(1.1);
+}
+
+
+.circle{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color: black;
+}
+
+p{
+color: #2C3E50;
+font-size: 26px;
+}
+
+body{
+
+
+}
