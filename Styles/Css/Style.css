@@ -21,6 +21,7 @@ font-size: 25px;
   left: 0;
   right: 0;
   z-index: 3;
+  overflow: hidden;
 }
 
 .top-img{
@@ -31,20 +32,22 @@ font-size: 25px;
   left: 0;
   right: 0;
   z-index: 1;
-  filter: blur(8px);
-  height: 510px;
+  -webkit-backdrop-filter: blur(8px);
+  filter: blur(5px);
+  height: 520px;
   background-size: cover;
-  transform: scale(1.1);
+  transform: scale(1.080);
+  overflow: hidden;
 }
 
 .picture{
+
  margin: auto;
  z-index: 2;
  position: relative;
  height: 102px;
- width: 300px;
  text-align: center;
- padding-bottom: 0;
+
 }
 
 .circle{
@@ -62,19 +65,24 @@ background-color: white;
 }
 
 .wrapper{
-height: 430px;
+height: 440px;
 }
 
 .middle{
+text-align: center;
 position: relative;
 z-index: 0;
-height:320px;
+height:500px;
+width: 100%;
 background-color: lightgrey;
-transform: scale(1.1);
+}
 
-
-
-
+.description{
+margin: auto;
+position: relative;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
 }
 
 p{
@@ -82,7 +90,20 @@ color: #2C3E50;
 font-size: 26px;
 }
 
-body{
 
+footer{
+  text-align: center;
+  position: fixed;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+html,body{
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
 
 }
